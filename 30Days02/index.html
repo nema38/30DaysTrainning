@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	<style>
+		
+		.container { color: green; }
+	</style>
+		
+	</head>
+	
+	<body>
+		<div class="container">
+			<h1>Welcome to my WebSite </h1>
+			<p>
+				Lorem Ipsum is simply dummy text of the printing and 
+				typesetting industry. Lorem Ipsum has been the industry's
+				standard dummy text ever since the 1500s, when an unknown
+				printer took a galley of type and scrambled it to make
+				a type specimen book. It has survived not only five 
+				centuries, but also the leap into electronic 
+				typesetting, remaining essentially unchanged. 
+				 
+			</p>
+			<ul class="emphasis">
+				<li>item</li>
+				<li>item 2</li>
+				<li>item 3</li>
+				<li>item 4</li>
+				<li>item 5</li>
+				<li>
+					<ul>
+						<li>hello from the nest.</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script>
+		//	$('ul.emphasis')
+		//		.children('li')
+		//			.eq(2)
+		//			.prev().text('added with JQuery');
+		$('li').parents('div.container').removeClass('container');
+		</script>
+	</body>
+</html>
