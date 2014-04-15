@@ -24,7 +24,19 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
 		</script>
 		<script>
+			(function() {
+				
+				$('dd').filter(':nth-child(n+4)').addClass('hide');
+				$('dl').on('mouseenter', 'dt', function() {
+					$(this)
+						.next()
+							.slideDown(500)
+							.siblings('dd')
+								.slideUp(500);
+				})
 			
+				
+			})();
 		</script>
 	</body>
 </html>

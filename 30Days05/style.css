@@ -17,3 +17,8 @@ dd {
 	margin: 0;
 	padding: 1em 0;
 }
+
+dt:first-child { border-top: none;}
+dt:nth-last-child(2)	{ border-bottom: none;}
+
+.hide	{ display: none;}
