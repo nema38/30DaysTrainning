@@ -96,7 +96,15 @@
 				
 				var contactForm = {
 					container: $('#contact'),
-					init: function() {
+					
+					config:	{				//original settings
+						effect: 'slideToggle',  //original settigs
+						speed: 500
+					},
+					
+					init: function(config) {
+						$.extend(this.config, config);  //gives the new settings
+						
 						$('<button></button>', {
 							text: 'Contact Me'
 						})
@@ -105,19 +113,30 @@
 					},
 					
 					show: function() {
-						contactForm.close.call(contactForm.container);
-						contactForm.container.show();
+						var cf = contactForm,
+							container = cf.container,
+							config = cf.config;
+						if (container.is(':hidden')) {
+							contactForm.close.call(container);
+							container[config.effect](config.speed);
+						}
 					},
 					close: function()	{
 						var $this = $(this);
+						console.log($this);
+						if ( $this.find('span.close' ).length ) return;
 						$('<span class=close>X</span>')
 						.prependTo(this)
 						.on('click', function() {
-							$this.hide();
+							$this[contactForm.config.effect](contactForm.config.speed);
 						})
 					}
 				};
-				contactForm.init();
+				
+				contactForm.init( {
+					effect: 'fadeToggle',
+					speed: 1000
+				});
 			})();
 		</script>
 		
