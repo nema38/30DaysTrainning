@@ -34,7 +34,7 @@
 		<script src="slider.js"></script>
 		
 		<script>
-			var slider = new Slider( $('div.slider ul'), $('#slider-nav') );
+			var slider = new Slider( $('div.slider'), $('.slider-nav') );
 			console.log('pressed');
 			slider.nav.show().find('button').on('click', function() {
 				slider.transition(-922);
