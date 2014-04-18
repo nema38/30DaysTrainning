@@ -1,0 +1,12 @@
+(function($) {
+	var sliderUL = $('div.slider').css('overflow', 'hidden').children('ul'),
+		imgs = sliderUL.find('img'),
+		imgWidth = imgs[0].width,
+		imgsLen = imgs.length,
+		current = 1,
+		totalImgsWidth = imgsLen * imgWidth;
+		
+		console.log(imgsLen);
+		
+		
+})(jQuery);

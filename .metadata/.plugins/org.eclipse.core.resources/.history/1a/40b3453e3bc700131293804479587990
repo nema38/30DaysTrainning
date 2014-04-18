@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset=utf-8>
+		<title>The Obligatory Slider</title>
+		<link rel="stylesheet" href="slider.css">
+		<style>
+			body	{
+				width: 922px;
+				margin: 100px auto	0;
+			}
+			* {margin: 0; padding: 0; }
+		</style>
+	</head>
+	
+	<body>
+		<div class="slider">
+			<ul>
+				<li><img src="img/image001.gif" alt="image" /></li>
+				<li><img src="img/image002.gif" alt="image" /></li>
+				<li><img src="img/image003.gif" alt="image" /></li>
+				<li><img src="img/image004.gif" alt="image" /></li>
+				
+			</ul>
+		</div>
+		<div class="slider-nav">
+			<button data-dir="prev">Previous</button>
+			<button data-dir="next">Next</button>
+		</div>
+				
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		
+		<script src="slider.js"></script>
+		
+		<script>
+			var slider = new Slider( $('div.slider'), $('#slider-nav') );
+			
+			slider.nav.show().find('button').on('click', function() {
+				slider.transition(-922);
+				console.log('pressed');
+			});
+		</script>
+		
+	</body>
+	
+</html>
+
+
+
+
+
+
+
+

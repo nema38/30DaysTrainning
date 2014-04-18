@@ -1,0 +1,8 @@
+(function($) {
+	var slideUL = $('div.slider').css('overflow', 'hidden').children('ul'),
+		imgs = slideUL.find('image'),
+		imgWidth = imgs[0].width,
+		imgsLen = imgs.length,
+		current = 1,
+		totalImgsWidth = imgsLen * imgWidth;
+})(JQuery);

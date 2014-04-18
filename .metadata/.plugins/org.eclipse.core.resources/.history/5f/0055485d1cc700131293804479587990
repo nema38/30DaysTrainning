@@ -1,0 +1,11 @@
+
+*	{ margin: 0px; padding: 0px; }
+
+.slider-nav	{
+	display: none;
+}
+
+body	{
+	width: 600 px;
+	margin: 100px auto 0;
+}
