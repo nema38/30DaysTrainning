@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset=utf-8>
+		<title>Q&A</title>
+				
+	</head>
+	<body>
+		
+		<script id="blogTemplate" type="tuts/template">
+			<h2> {{title}}</h2>
+			<img src={{thumbnail}} alt={{title}} />
+		</script>
+		
+		<a href="http://tutplus.com" class = "myClass">Click Me</a>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		
+		<script>
+			(function() {
+				var content = [
+				{
+					title: 'My awsome blog post',
+					thumbnail: 'https://tutsplus-media.s3.amazonaws.com/tutsplus.com/uploads/2014/04/6_Vid-100x100.png'
+				},
+				{
+					title: 'My second awsome blog post',
+					thumbnail: 'https://tutsplus-media.s3.amazonaws.com/tutsplus.com/uploads/2014/04/11_Ruby-100x100.png' 
+				}
+				],
+				template = $.trim( $('#blogTemplate').html() );
+				console.log(template);
+			})();
+		</script>
+		
+		
+	</body>
+	
+</html>
+
+
+
+
+
+
+
+
