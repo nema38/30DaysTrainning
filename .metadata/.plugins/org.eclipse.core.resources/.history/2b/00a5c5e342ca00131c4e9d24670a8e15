@@ -36,15 +36,14 @@
 				}
 				],
 				template = $.trim( $('#blogTemplate').html() );
-				frag = '';
+				
 				$.each( content, function(index, obj) {
-					frag += 
+					var temp = 
 					template.replace( /{{title}}/ig, obj.title)
 							.replace( /{{thumbnail}}/ig, obj.thumbnail);
-					
+					$(document.body).append(temp);
 				});
 				
-				$(document.body).append(frag);	
 				
 			})();
 		</script>

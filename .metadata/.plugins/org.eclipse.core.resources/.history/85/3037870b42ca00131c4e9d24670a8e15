@@ -25,26 +25,17 @@
 				{
 					title: 'My second awsome blog post',
 					thumbnail: 'https://tutsplus-media.s3.amazonaws.com/tutsplus.com/uploads/2014/04/11_Ruby-100x100.png' 
-				},
-				{
-					title: 'My awsome blog post',
-					thumbnail: 'https://tutsplus-media.s3.amazonaws.com/tutsplus.com/uploads/2014/04/6_Vid-100x100.png'
-				},
-				{
-					title: 'My second awsome blog post',
-					thumbnail: 'https://tutsplus-media.s3.amazonaws.com/tutsplus.com/uploads/2014/04/11_Ruby-100x100.png' 
 				}
 				],
 				template = $.trim( $('#blogTemplate').html() );
-				frag = '';
+				
 				$.each( content, function(index, obj) {
-					frag += 
+					var temp = 
 					template.replace( /{{title}}/ig, obj.title)
 							.replace( /{{thumbnail}}/ig, obj.thumbnail);
-					
+					console.log(temp);
 				});
 				
-				$(document.body).append(frag);	
 				
 			})();
 		</script>
