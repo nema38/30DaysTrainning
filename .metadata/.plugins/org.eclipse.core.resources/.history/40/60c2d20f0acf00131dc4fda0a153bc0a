@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset=utf-8>
+		<title>Mustache</title>
+		
+		<style>
+			h2 span { color: gray; font-size: .8em;}
+		</style>
+	</head>
+	
+	<body>		
+		<ul class="tweets">
+			<script id="template" type="text/x-handlebars-template">
+				<li>
+					{{#each this}}
+					<h2>{{author}} {{#if age}}- <span>{{age}}</span> {{/if}}</h2>
+					<p>{{tweet}}</p>
+					{{/each}}
+				</li>
+			</script>
+		</ul>
+				
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"
+		></script>
+		
+		<script src="handlebars-v1.3.0.js"
+		></script>
+		
+		<script>
+			(function() {
+				var data = [
+				{
+					author: 'Jeffrey Way',
+					tweet: '30 Days to Learn'
+				},
+				{
+					author: 'Jhon Doe',
+					tweet: '30 Days to Learn'
+				}
+				];
+				
+				var template = Handlebars.compile($('#template').html());
+				$('ul.tweets').append(template(data));
+				
+			})();
+		</script>
+		
+	</body>
+	
+</html>
+
+
+
+
+
+
+
+
