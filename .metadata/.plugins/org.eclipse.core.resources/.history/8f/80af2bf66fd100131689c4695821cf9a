@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset=utf-8>
+		<title>Template</title>
+		
+		<style>
+			
+		</style>
+	</head>
+	
+	<body>
+		
+		<h1>Something to Save</h1>
+		
+		<form action="#">
+			<textarea name="content" id="content" cols="30" rows="10"></textarea>
+			<p><button type="submit">Save</button></p>
+		</form>
+		
+				
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		
+		<script src="http://cloud.github.com/downloads/wycats/handlebars.js/handlebars-1.0.0.beta.6.js"
+		></script>
+		
+		<script>
+			//listen for click
+			$('form').on('submit', function(e) {
+				
+				$.post('save.php', $(this).serialize(), function() {
+					console.log('completed');
+				});
+				
+				e.preventDefault();
+				//disable default action
+				
+				
+			});
+			
+			
+			//graba textarea context
+			
+			//post contenct fo script, and save
+		</script>
+		
+	</body>
+	
+</html>
+
+
+
+
+
+
+
+
