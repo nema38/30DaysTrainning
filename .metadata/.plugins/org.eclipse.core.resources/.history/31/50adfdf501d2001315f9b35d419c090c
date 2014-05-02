@@ -28,11 +28,7 @@
 		<script>
 			
 			$.post( 'load.php', function(data) {
-				
-				if (data) {
-					console.log( data);
-					$('#content').val( data );
-				}
+				console.log(data);
 			});
 			//listen for click
 			$('form').on('submit', function(e) {

@@ -28,10 +28,8 @@
 		<script>
 			
 			$.post( 'load.php', function(data) {
-				
 				if (data) {
-					console.log( data);
-					$('#content').val( data );
+					$('content').val( data );
 				}
 			});
 			//listen for click

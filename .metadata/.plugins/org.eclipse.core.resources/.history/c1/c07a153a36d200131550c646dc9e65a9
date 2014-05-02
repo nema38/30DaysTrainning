@@ -1,0 +1,8 @@
+<?php include '_partials/header.php'; ?>
+
+<?php 
+	echo "<h1>{$info->first_name} {$info->last_name}</h1>";
+	echo "<p>{$info->film_info}</p>";
+?>
+		
+<?php include '_partials/footer.php'; ?>
