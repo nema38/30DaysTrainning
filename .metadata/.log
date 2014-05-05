@@ -2397,3 +2397,51 @@ java.lang.IllegalThreadStateException: process has not exited
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY com.aptana.git.core 4 0 2014-05-02 16:21:18.016
+!MESSAGE (Build 3.4.2.201308081805) [ERROR] com.aptana.git.core/debug You entered a custom git path in the Preferences pane, but this path is not a valid git v1.6.0 or higher binary. Were going to use the default search paths instead
+
+!ENTRY com.aptana.git.core 4 0 2014-05-02 16:21:18.017
+!MESSAGE (Build 3.4.2.201308081805) [ERROR] com.aptana.git.core/debug You entered a custom git path in the Preferences pane, but this path is not a valid git v1.6.0 or higher binary. Were going to use the default search paths instead
+
+!ENTRY com.aptana.git.core 4 0 2014-05-02 16:21:18.019
+!MESSAGE (Build 3.4.2.201308081805) [ERROR] com.aptana.git.core/debug You entered a custom git path in the Preferences pane, but this path is not a valid git v1.6.0 or higher binary. Were going to use the default search paths instead
+
+!ENTRY com.aptana.git.core 4 0 2014-05-02 16:21:18.020
+!MESSAGE (Build 3.4.2.201308081805) [ERROR] com.aptana.git.core/debug You entered a custom git path in the Preferences pane, but this path is not a valid git v1.6.0 or higher binary. Were going to use the default search paths instead
+
+!ENTRY com.aptana.git.core 4 0 2014-05-02 16:21:18.021
+!MESSAGE (Build 3.4.2.201308081805) [ERROR] com.aptana.git.core/debug You entered a custom git path in the Preferences pane, but this path is not a valid git v1.6.0 or higher binary. Were going to use the default search paths instead
+
+!ENTRY com.aptana.git.core 4 0 2014-05-02 16:21:18.022
+!MESSAGE (Build 3.4.2.201308081805) [ERROR] com.aptana.git.core/debug You entered a custom git path in the Preferences pane, but this path is not a valid git v1.6.0 or higher binary. Were going to use the default search paths instead
+
+!ENTRY com.aptana.git.core 4 0 2014-05-02 16:21:18.023
+!MESSAGE (Build 3.4.2.201308081805) [ERROR] com.aptana.git.core/debug You entered a custom git path in the Preferences pane, but this path is not a valid git v1.6.0 or higher binary. Were going to use the default search paths instead
+
+!ENTRY com.aptana.git.core 4 0 2014-05-02 16:21:18.025
+!MESSAGE (Build 3.4.2.201308081805) [ERROR] com.aptana.git.core/debug You entered a custom git path in the Preferences pane, but this path is not a valid git v1.6.0 or higher binary. Were going to use the default search paths instead
+
+!ENTRY com.aptana.git.core 4 0 2014-05-02 16:21:18.026
+!MESSAGE (Build 3.4.2.201308081805) [ERROR] com.aptana.git.core/debug You entered a custom git path in the Preferences pane, but this path is not a valid git v1.6.0 or higher binary. Were going to use the default search paths instead
+
+!ENTRY com.aptana.git.core 4 0 2014-05-02 16:21:18.027
+!MESSAGE (Build 3.4.2.201308081805) [ERROR] com.aptana.git.core/debug You entered a custom git path in the Preferences pane, but this path is not a valid git v1.6.0 or higher binary. Were going to use the default search paths instead
+
+!ENTRY com.aptana.git.core 4 0 2014-05-02 16:21:18.028
+!MESSAGE (Build 3.4.2.201308081805) [ERROR] com.aptana.git.core/debug You entered a custom git path in the Preferences pane, but this path is not a valid git v1.6.0 or higher binary. Were going to use the default search paths instead
+
+!ENTRY com.aptana.git.core 4 0 2014-05-02 16:21:18.029
+!MESSAGE (Build 3.4.2.201308081805) [ERROR] com.aptana.git.core/debug You entered a custom git path in the Preferences pane, but this path is not a valid git v1.6.0 or higher binary. Were going to use the default search paths instead
+
+!ENTRY com.aptana.git.core 4 0 2014-05-02 16:21:18.030
+!MESSAGE (Build 3.4.2.201308081805) [ERROR] com.aptana.git.core/debug You entered a custom git path in the Preferences pane, but this path is not a valid git v1.6.0 or higher binary. Were going to use the default search paths instead
+
+!ENTRY com.aptana.git.core 4 0 2014-05-02 16:21:18.031
+!MESSAGE (Build 3.4.2.201308081805) [ERROR] com.aptana.git.core/debug You entered a custom git path in the Preferences pane, but this path is not a valid git v1.6.0 or higher binary. Were going to use the default search paths instead
+
+!ENTRY com.aptana.git.core 4 0 2014-05-05 10:08:23.462
+!MESSAGE (Build 3.4.2.201308081805) [ERROR] com.aptana.git.core/debug You entered a custom git path in the Preferences pane, but this path is not a valid git v1.6.0 or higher binary. Were going to use the default search paths instead
+
+!ENTRY com.aptana.git.core 4 0 2014-05-05 10:08:24.656
+!MESSAGE (Build 3.4.2.201308081805) [ERROR] com.aptana.git.core/debug You entered a custom git path in the Preferences pane, but this path is not a valid git v1.6.0 or higher binary. Were going to use the default search paths instead

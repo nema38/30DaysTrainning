@@ -4,7 +4,7 @@
 <script src="http://cloud.github.com/downloads/wycats/handlebars.js/handlebars-1.0.0.beta.6.js"></script>
 <script src="js/scripts.js"></script>
 
-
+<footer>thi is the footer</footer>
 </body>
 	
 </html>
